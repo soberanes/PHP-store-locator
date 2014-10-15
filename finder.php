@@ -1,6 +1,7 @@
 <?php
 require_once("connection.php");
 
+
 //Por Geolocalización
 if($_POST['geo']==1){
 	$lng = $_POST['lng'];

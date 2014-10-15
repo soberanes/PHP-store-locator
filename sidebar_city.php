@@ -1,6 +1,7 @@
 <?php
 require_once("connection.php");
 
+
 $lng  = $_POST['lng'];
 $lat  = $_POST['lat'];
 $city = $_POST['city'];

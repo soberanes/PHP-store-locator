@@ -1,6 +1,7 @@
 <?php
 require_once("connection.php");
 
+
 // Define ajax request vars - $_GET
 $lng = -103.343803;
 $lat = 20.67359;

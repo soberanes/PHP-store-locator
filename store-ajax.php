@@ -1,4 +1,6 @@
 <?php
+require_once("connection.php");
+
 function die_with_error($error) {
     $ret = array(
         "status" => "Failed",
@@ -11,9 +13,7 @@ $lat = $_GET["lat"];
 $lng = $_GET["lng"];
 if (!$lat || !$lng)
     die_with_error("invalid parameters");
- 
-require_once("connection.php");
- 
+
 $query = sprintf("SELECT *,
         ( 6371 * acos( 
         cos(radians('%s')) * cos(radians(lat)) * 
