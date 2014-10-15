@@ -1,0 +1,2 @@
+[11-Nov-2013 11:57:00 America/New_York] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/hopper/public_html/apps/store-locator/index.php on line 14
+[11-Nov-2013 16:42:52 America/New_York] PHP Parse error:  syntax error, unexpected T_ECHO in /home/hopper/public_html/apps/store-locator/envia-mail.php on line 5

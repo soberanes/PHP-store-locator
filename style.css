@@ -1,0 +1,186 @@
+/*
+ *	StyleSheet 
+ * 
+ * */
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	padding: 0;
+	margin: 0;
+}
+#main{
+	width: 815px;
+	margin: 0 auto;
+}
+#banner{
+	height: 300px;
+	padding: 20px;
+	background: #0C76CF;
+	color: white;
+}
+.form{
+	padding: 20px 0px;
+	background: #04b8f9;
+}
+.form .form_content{
+	width: 721px;
+	margin: 0 auto;
+}
+#contact{
+	color: #FFFFFF;	
+}
+#contact .text_contact{
+	display: inline-block;
+	width: 312px;
+	max-height: 110px;
+}
+#contact .text_contact .letra{
+	font-size: 0.83em;
+margin: 10px 0px;
+}
+#sidebar{
+	width: 312px;
+	display: inline-block;
+	overflow: auto;
+	max-height: 400px;
+	vertical-align: top;
+}
+#map_canvas{
+	
+}
+#footer{
+	height: 70px;
+	padding: 20px;
+	background: #0C76CF;
+	color: white;
+}
+#loading{
+	background: url('loading.gif') #FFF center no-repeat;
+	width: 825px;
+	height: 482px;
+	position: absolute;
+	z-index: 100;
+	top: 340px;
+	display: none;
+	text-align: center;
+	line-height: 35;
+	opacity: .7;
+	font-size: 20px;
+}
+.text{
+	padding: 9px;
+	width: 225px;
+}
+.txt-contact{
+	float: left;
+	width: 300px;
+	resize: none;
+	border: none;
+}
+.btn-contact{
+	padding: 23px !important;
+	position: relative;
+	right: 6px;
+	bottom: 2px;
+}
+#contact_div{	
+	left: 20px;
+	height: 57px;
+	float: right;
+	bottom: 50px;
+	position: relative;
+	z-index: 10;
+}
+#contact{
+	display: none;
+}
+.select{
+	width: 220px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	height: 37px;
+	line-height: 34px;
+    vertical-align: top;
+    padding: 10px;
+}
+.boton{
+	padding: 11px;
+	background: #000;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+	font-weight: lighter;
+}
+.boton:hover{
+	color: #999;
+}
+.target{
+	background: url('target.png') #3B5998 10px center no-repeat;
+	padding: 11px 10px 11px 35px;
+}
+.target:hover{
+	color: #B4B4B4;
+}
+p{
+	font-weight: lighter;
+}
+.store{
+	overflow: auto;
+	display: inline-block;
+	border-bottom: 1px solid #00afef;
+	padding: 10px 0;
+	line-height: 1em;
+	width: 300px;
+	cursor: pointer;
+}
+.store:hover{
+	background: #d5e4e8;
+}
+.letra2 {
+	font-size: 14px;
+	color: #00afef;
+	width: 219px;
+	font-weight: bolder;
+	display: block;
+}
+.letra {
+	font-size: 12px;
+	color: #002d59;
+	display: block;
+}
+#contact .text_contact h5{
+	font-size: 0.83em;
+	margin: 0px;
+	color: #FFFFFF;
+}
+.mail_h1{
+	width: 253px;
+	margin: 0px auto;
+}
